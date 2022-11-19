@@ -196,6 +196,19 @@
   margin-left: 20px;
   text-decoration: none;
 }
+
+.app-component-link5 {
+  display: contents;
+}
+.app-component-icon05 {
+  fill: #ffffff;
+  width: 24px;
+  height: 24px;
+  transition: 0.3s;
+  margin-left: 20px;
+  text-decoration: none;
+}
+
 .app-component-icon02:hover {
   fill: #8a6cff;
   width: 26px;
@@ -424,6 +437,17 @@
   width: 28px;
   height: 28px;
 }
+
+.index-link6 {
+  display: contents;
+}
+.index-nav-image {
+  width: 24px;
+  height: 24px;
+  object-fit: cover;
+  text-decoration: none;
+}
+
 .index-link6 {
   display: contents;
 }
