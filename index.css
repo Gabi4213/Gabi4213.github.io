@@ -130,11 +130,6 @@
   object-fit: cover;
 }
 
-
-
-
-
-
 @media(max-width: 767px) {
   .gallery-card1-gallery-card {
     flex-direction: column;
