@@ -1,0 +1,84 @@
+.nightmares-blog-post-card {
+  width: 100%;
+  display: flex;
+  max-width: 1600px;
+  box-shadow: 4px 4px 10px 0px rgba(18, 18, 18, 0.1);
+  transition: 0.3s;
+  align-items: stretch;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.nightmares-blog-post-card:hover {
+  transform: scale(1.02);
+}
+.nightmares-image {
+  width: 50%;
+  height: 380px;
+  object-fit: cover;
+  flex-shrink: 0;
+  border-radius: 0px;
+}
+.nightmares-container {
+  display: flex;
+  align-items: flex-start;
+  padding-top: 32px;
+  padding-left: 32px;
+  padding-right: 32px;
+  flex-direction: column;
+  padding-bottom: 32px;
+  justify-content: space-between;
+  background-color: #ffffff;
+}
+.nightmares-text {
+  margin-bottom: 32px;
+}
+.nightmares-text2 {
+  color: var(--dl-color-gray-500);
+  font-size: 1.25rem;
+  margin-bottom: 32px;
+}
+
+
+
+.nightmares-root-class-name3 {
+  flex: 0;
+  max-width: 1600px;
+  align-self: flex-end;
+  margin-top: 20px;
+}
+.nightmares-root-class-name4 {
+  margin-top: 20px;
+}
+.nightmares-root-class-name5 {
+  align-self: flex-start;
+}
+.nightmares-root-class-name6 {
+  align-self: flex-start;
+}
+.nightmares-root-class-name7 {
+  align-self: flex-start;
+}
+
+.nightmares-root-class-name9 {
+  flex: 0;
+}
+.nightmares-root-class-name10 {
+  flex: 0;
+}
+.nightmares-root-class-name11 {
+  flex: 0;
+}
+@media(max-width: 991px) {
+  .nightmares-blog-post-card {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+@media(max-width: 767px) {
+  .nightmares-blog-post-card {
+    flex-direction: column;
+  }
+  .nightmares-image {
+    width: 100%;
+  }
+}
