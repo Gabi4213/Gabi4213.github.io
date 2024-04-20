@@ -1,10 +1,17 @@
 {
-  "name": "gabi-website-2",
-  "version": "1.0.0",
+  "name": "pokemon-deck-builder",
   "private": true,
-  "dependencies": {
-    "parcel-bundler": "^1.6.1"
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host",
+    "build": "vite build",
+    "preview": "vite preview"
   },
-  "scripts": {},
-  "devDependencies": {}
+  "devDependencies": {
+    "@sveltejs/vite-plugin-svelte": "^1.1.0",
+    "pokemontcgsdk": "^2.0.0",
+    "svelte": "^3.52.0",
+    "vite": "^3.2.0"
+  }
 }
