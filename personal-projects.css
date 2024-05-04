@@ -488,7 +488,7 @@
   text-decoration: none;
 }
 .app-component-icon:hover {
-  fill: #8a6cff;
+  fill: #85d0ff;
   width: 26px;
   height: 26px;
 }
@@ -504,7 +504,7 @@
   text-decoration: none;
 }
 .app-component-icon02:hover {
-  fill: #8a6cff;
+  fill: #85d0ff;
   width: 26px;
   height: 26px;
 }
@@ -520,7 +520,7 @@
   text-decoration: none;
 }
 .app-component-icon04:hover {
-  fill: #8a6cff;
+  fill: #85d0ff;
   width: 26px;
   height: 26px;
 }
@@ -536,7 +536,7 @@
   text-decoration: none;
 }
 .app-component-icon06:hover {
-  fill: #8a6cff;
+  fill: #85d0ff;
   width: 26px;
   height: 26px;
 }
@@ -552,7 +552,7 @@
   text-decoration: none;
 }
 .app-component-icon08:hover {
-  fill: #8a6cff;
+  fill: #85d0ff;
   width: 26px;
   height: 26px;
 }
@@ -638,7 +638,7 @@
   text-decoration: none;
 }
 .personal-projects-link:hover {
-  color: #8a6cff;
+  color: #85d0ff;
   font-size: 22px;
 }
 
@@ -651,7 +651,7 @@
   text-transform: capitalize;
 }
 .personal-projects-link01:hover {
-  color: #8a6cff;
+  color: #85d0ff;
   font-size: 22px;
 }
 
@@ -665,7 +665,7 @@
   text-decoration: none;
 }
 .personal-projects-link02:hover {
-  color: #8a6cff;
+  color: #85d0ff;
   font-size: 22px;
 }
 
@@ -679,7 +679,7 @@
   text-decoration: none;
 }
 .personal-projects-link03:hover {
-  color: #8a6cff;
+  color: #85d0ff;
   font-size: 22px;
 }
 
@@ -710,7 +710,7 @@
   text-decoration: none;
 }
 .personal-projects-icon:hover {
-  fill: #8a6cff;
+  fill: #85d0ff;
   width: 28px;
   height: 28px;
 }
@@ -726,7 +726,7 @@
   text-decoration: none;
 }
 .personal-projects-icon02:hover {
-  fill: #8a6cff;
+  fill: #85d0ff;
   width: 28px;
   height: 28px;
 }
@@ -742,7 +742,7 @@
   text-decoration: none;
 }
 .personal-projects-icon04:hover {
-  fill: #8a6cff;
+  fill: #85d0ff;
   width: 28px;
   height: 28px;
 }
@@ -758,7 +758,7 @@
   text-decoration: none;
 }
 .personal-projects-icon06:hover {
-  fill: #8a6cff;
+  fill: #85d0ff;
   width: 28px;
   height: 28px;
 }
@@ -774,7 +774,7 @@
   text-decoration: none;
 }
 .personal-projects-icon08:hover {
-  fill: #8a6cff;
+  fill: #85d0ff;
   width: 28px;
   height: 28px;
 }
@@ -786,7 +786,7 @@
   min-height: 80vh;
   transition: 0.3s;
   align-items: center;
-  border-color: #8a6cff;
+  border-color: #85d0ff;
   border-style: dashed;
   border-width: 5px;
   flex-direction: column;
@@ -808,6 +808,22 @@
   margin-bottom: 32px;
 }
 .personal-projects-text:hover {
+  font-size: 5rem;
+  text-align: center;
+  letter-spacing: -5px;
+}
+
+.personal-projects-text-2 {
+  color: var(--dl-color-gray-white);
+  font-size: 5rem;
+  max-width: 450px;
+  margin-top: 100px;
+  text-align: center;
+  transition: 0.3s;
+  line-height: 1;
+  margin-bottom: 100px;
+}
+.personal-projects-text-2:hover {
   font-size: 5rem;
   text-align: center;
   letter-spacing: -5px;

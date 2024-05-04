@@ -33,7 +33,7 @@
   text-decoration: none;
 }
 .app-component-icon:hover {
-  fill: #8a6cff;
+  fill: #85d0ff;
   width: 26px;
   height: 26px;
 }
@@ -49,7 +49,7 @@
   text-decoration: none;
 }
 .app-component-icon02:hover {
-  fill: #8a6cff;
+  fill: #85d0ff;
   width: 26px;
   height: 26px;
 }
@@ -65,7 +65,7 @@
   text-decoration: none;
 }
 .app-component-icon04:hover {
-  fill: #8a6cff;
+  fill: #85d0ff;
   width: 26px;
   height: 26px;
 }
@@ -81,7 +81,7 @@
   text-decoration: none;
 }
 .app-component-icon06:hover {
-  fill: #8a6cff;
+  fill: #85d0ff;
   width: 26px;
   height: 26px;
 }
@@ -97,7 +97,7 @@
   text-decoration: none;
 }
 .app-component-icon08:hover {
-  fill: #8a6cff;
+  fill: #85d0ff;
   width: 26px;
   height: 26px;
 }
@@ -183,7 +183,7 @@
   text-decoration: none;
 }
 .university-work-link:hover {
-  color: #8a6cff;
+  color: #85d0ff;
   font-size: 22px;
 }
 
@@ -196,7 +196,7 @@
   text-transform: capitalize;
 }
 .university-work-link1:hover {
-  color: #8a6cff;
+  color: #85d0ff;
   font-size: 22px;
 }
 
@@ -210,7 +210,7 @@
   text-decoration: none;
 }
 .university-work-link2:hover {
-  color: #8a6cff;
+  color: #85d0ff;
   font-size: 22px;
 }
 
@@ -224,7 +224,7 @@
   text-decoration: none;
 }
 .university-work-link3:hover {
-  color: #8a6cff;
+  color: #85d0ff;
   font-size: 22px;
 }
 
@@ -255,7 +255,7 @@
   text-decoration: none;
 }
 .university-work-icon:hover {
-  fill: #8a6cff;
+  fill: #85d0ff;
   width: 28px;
   height: 28px;
 }
@@ -271,7 +271,7 @@
   text-decoration: none;
 }
 .university-work-icon02:hover {
-  fill: #8a6cff;
+  fill: #85d0ff;
   width: 28px;
   height: 28px;
 }
@@ -287,7 +287,7 @@
   text-decoration: none;
 }
 .university-work-icon04:hover {
-  fill: #8a6cff;
+  fill: #85d0ff;
   width: 28px;
   height: 28px;
 }
@@ -303,7 +303,7 @@
   text-decoration: none;
 }
 .university-work-icon06:hover {
-  fill: #8a6cff;
+  fill: #85d0ff;
   width: 28px;
   height: 28px;
 }
@@ -319,7 +319,7 @@
   text-decoration: none;
 }
 .university-work-icon08:hover {
-  fill: #8a6cff;
+  fill: #85d0ff;
   width: 28px;
   height: 28px;
 }
@@ -331,7 +331,7 @@
   min-height: 80vh;
   transition: 0.3s;
   align-items: center;
-  border-color: #8a6cff;
+  border-color: #85d0ff;
   border-style: dashed;
   border-width: 5px;
   flex-direction: column;

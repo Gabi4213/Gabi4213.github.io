@@ -62,7 +62,7 @@
   text-decoration: none;
 }
 .app-component-icon:hover {
-  fill: #8a6cff;
+  fill: #85d0ff;
   width: 26px;
   height: 26px;
 }
@@ -78,7 +78,7 @@
   text-decoration: none;
 }
 .app-component-icon02:hover {
-  fill: #8a6cff;
+  fill: #85d0ff;
   width: 26px;
   height: 26px;
 }
@@ -94,7 +94,7 @@
   text-decoration: none;
 }
 .app-component-icon04:hover {
-  fill: #8a6cff;
+  fill: #85d0ff;
   width: 26px;
   height: 26px;
 }
@@ -110,7 +110,7 @@
   text-decoration: none;
 }
 .app-component-icon06:hover {
-  fill: #8a6cff;
+  fill: #85d0ff;
   width: 26px;
   height: 26px;
 }
@@ -126,7 +126,7 @@
   text-decoration: none;
 }
 .app-component-icon08:hover {
-  fill: #8a6cff;
+  fill: #85d0ff;
   width: 26px;
   height: 26px;
 }
@@ -212,7 +212,7 @@
   text-decoration: none;
 }
 .industry-experience-link:hover {
-  color: #8a6cff;
+  color: #85d0ff;
   font-size: 22px;
 }
 
@@ -225,7 +225,7 @@
   text-transform: capitalize;
 }
 .industry-experience-link1:hover {
-  color: #8a6cff;
+  color: #85d0ff;
   font-size: 22px;
 }
 
@@ -239,7 +239,7 @@
   text-decoration: none;
 }
 .industry-experience-link2:hover {
-  color: #8a6cff;
+  color: #85d0ff;
   font-size: 22px;
 }
 
@@ -253,7 +253,7 @@
   text-decoration: none;
 }
 .industry-experience-link3:hover {
-  color: #8a6cff;
+  color: #85d0ff;
   font-size: 22px;
 }
 
@@ -284,7 +284,7 @@
   text-decoration: none;
 }
 .industry-experience-icon:hover {
-  fill: #8a6cff;
+  fill: #85d0ff;
   width: 28px;
   height: 28px;
 }
@@ -300,7 +300,7 @@
   text-decoration: none;
 }
 .industry-experience-icon02:hover {
-  fill: #8a6cff;
+  fill: #85d0ff;
   width: 28px;
   height: 28px;
 }
@@ -316,7 +316,7 @@
   text-decoration: none;
 }
 .industry-experience-icon04:hover {
-  fill: #8a6cff;
+  fill: #85d0ff;
   width: 28px;
   height: 28px;
 }
@@ -332,7 +332,7 @@
   text-decoration: none;
 }
 .industry-experience-icon06:hover {
-  fill: #8a6cff;
+  fill: #85d0ff;
   width: 28px;
   height: 28px;
 }
@@ -348,7 +348,7 @@
   text-decoration: none;
 }
 .industry-experience-icon08:hover {
-  fill: #8a6cff;
+  fill: #85d0ff;
   width: 28px;
   height: 28px;
 }
@@ -388,11 +388,13 @@
 }
 .industry-experience-gallery1 {
   width: 100%;
-  display: grid;
+  display: block;
   padding: 48px;
   grid-gap: var(--dl-space-space-unit);
-  max-width: 1400px;
+  max-width: 1920px;
   grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 100px;
+  background-color: #181818;
 }
 .industry-experience-about-me1 {
   width: 100%;
