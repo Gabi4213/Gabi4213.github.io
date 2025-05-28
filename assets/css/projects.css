@@ -291,6 +291,11 @@ border-radius: 8px;
 }
 
 
+/*--------------------------------------------------------------
+# nav bar buttons
+--------------------------------------------------------------*/
+
+/* Base button */
 .button-hero-page-1 {
   position: relative;
   padding: 12px 24px;
@@ -301,18 +306,54 @@ border-radius: 8px;
   color: #ffffff;
   font-size: 16px;
   font-weight: 500;
-  font-family: var(--heading-font, sans-serif); /* Fallback if not defined */
+  font-family: var(--heading-font, sans-serif);
   text-decoration: none;
-  transition: 0.3s;
+  transition: 0.3s ease;
+  display: inline-block;
 }
 
-.button-hero-page-1:hover {
-  background: linear-gradient(90deg, #60a5fa, #35d29b) padding-box,
-              linear-gradient(90deg, #60a5fa, #35d29b) border-box;
-  color: #ffffff;
-  box-shadow: 0 0 10px #ffffff;
-  filter: brightness(1.1);
-  transform: scale(1.1);
+/* Hardware: Blue-Green */
+.btn-hardware {
+  color: #60a5fa;
+  background: linear-gradient(#08152f, #08152f) padding-box,
+              linear-gradient(90deg, #60a5fa, #60a5fa) border-box;
+}
+.btn-hardware:hover {
+  color: #60a5fa;
+  transform: scale(1.08);
+}
+
+/* Low-Level: Purple-Pink */
+.btn-lowlevel {
+  color: #a875e2;
+  background: linear-gradient(#17183e, #17183e) padding-box,
+              linear-gradient(90deg, #a875e2, #a875e2) border-box;
+}
+.btn-lowlevel:hover {
+  color: #a875e2;
+  transform: scale(1.08);
+}
+
+/* Data: Yellow-Orange */
+.btn-data {
+  color: #f8bd24;
+  background: linear-gradient(#1b1918, #1b1918) padding-box,
+              linear-gradient(90deg, #f8bd24, #f8bd24) border-box;
+}
+.btn-data:hover {
+  color: #f8bd24;
+  transform: scale(1.08);
+}
+
+/* Games: Red-Purple */
+.btn-games {
+  color: #f43f5e;
+  background: linear-gradient(#2f111d, #2f111d) padding-box,
+              linear-gradient(90deg, #f43f5e, #f43f5e) border-box;
+}
+.btn-games:hover {
+  color: #f43f5e;
+  transform: scale(1.08);
 }
 
 
