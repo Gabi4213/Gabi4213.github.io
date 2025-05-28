@@ -282,4 +282,7 @@
   window.addEventListener('load', navmenuScrollspy);
   document.addEventListener('scroll', navmenuScrollspy);
 
+  window.scrollTo(0, 0);
+
+
 })();

@@ -147,6 +147,69 @@ h6 {
 }
 
 /*--------------------------------------------------------------
+# Cobntact Form
+--------------------------------------------------------------*/
+
+.contact-form-wrapper {
+  background-color: #1d2030;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+  color: #949aa7;
+}
+
+.contact-form-wrapper input,
+.contact-form-wrapper textarea {
+  background-color: #1d2030;
+  border: 2px solid #2a2d40;
+  color: #949aa7;
+  outline: none;
+  padding: 10px;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+}
+
+.contact-form-wrapper input:focus,
+.contact-form-wrapper textarea:focus {
+  background-color: #1d2030; /* keep background */
+  border: 2px solid transparent;
+  color: #ffffff;
+  background-image:
+    linear-gradient(#1d2030, #1d2030),
+    linear-gradient(-90deg, #60a5fa, #35d29b);
+  background-origin: border-box;
+  background-clip: padding-box, border-box;
+}
+
+.contact-form-wrapper input::placeholder,
+.contact-form-wrapper textarea::placeholder {
+  color: #949aa7;
+}
+
+.contact-form-wrapper button {
+  background-color: #2a2d40;
+  border: none;
+  color: #ffffff;
+  width: 100%;
+  border: 2px solid transparent;
+  border-radius: 8px;
+  padding: 12px 0;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: var(--heading-font, sans-serif);
+  text-decoration: none;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.contact-form-wrapper button:hover {
+  background: linear-gradient(90deg, #60a5fa, #35d29b) padding-box,
+              linear-gradient(90deg, #60a5fa, #35d29b) border-box;
+  color: #ffffff;
+  transform: scale(1.01);
+}
+
+/*--------------------------------------------------------------
 # Global Header
 --------------------------------------------------------------*/
 .header {
